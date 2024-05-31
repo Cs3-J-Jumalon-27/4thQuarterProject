@@ -1,0 +1,86 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo img {
+    height: 40px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+}
+
+.content {
+    width: 50%;
+    max-width: 45%; /* Ensures text doesn't overflow into the video */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    text-align: left;
+    padding: 20px;
+    position: relative; /* For additional positioning */
+    left: 2%; /* Adjust as needed to move right */
+    bottom: 15%;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0 0 20px 0;
+}
+
+p {
+    margin: 10px 0 0 0;
+}
+
+/* Scrollable Page Section */
+.about-us {
+    padding: 50px;
+    background-color: black;
+    overflow-y: auto; /* Enable vertical scrolling */
+    height: calc(100vh - 100px); /* Set height to fill remaining viewport height minus header height */
+}
+
+.gif-content {
+    position: relative;
+}
+
+.gif-content img {
+    max-width: 100%;
+    height: auto;
+    transform: scale(1.1); /* Makes the GIF slightly bigger */
+    margin-top: 20px; /* Adjusts the GIF down */
+    position: absolute;
+    top: 0;
+    right: 0; /* Moves the GIF to the right side */
+}

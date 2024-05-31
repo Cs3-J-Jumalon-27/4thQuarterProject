@@ -1,0 +1,150 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to left, black, #0a1f32);
+    scroll-behavior: smooth; /* Smooth scrolling */
+}
+
+header {
+    background:  linear-gradient(to left,black, #0a1f32);
+    color: #fff;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav {
+    margin-left: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color: #ddd;
+}
+
+.about {
+    display: flex;
+    padding: 50px;
+    background: linear-gradient(to bottom right, black 30%, #0a1f32);
+    color: white;
+    min-height: calc(135vh - 150px); 
+}
+
+.sidebar {
+    width: 20%;
+    background: #6d78b6;
+    padding: 20px;
+    margin-right: 20px;
+    box-sizing: border-box;
+    align-self: flex-start;
+    border-radius: 10px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 10px;
+    background: #e0e0e0;
+    border-radius: 4px;
+}
+
+.sidebar ul li a:hover {
+    background: #d0d0d0;
+}
+
+.main-content {
+    width: 80%;
+    box-sizing: border-box;
+    align-self: flex-start;
+}
+
+.text-content {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.overview-image {
+    width: 100%;
+    height: auto;
+    max-width: 1200px;
+    border-radius: 10px;
+}
+
+footer {
+    background: #0a1f32;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-container p {
+    margin: 5px 0;
+}
+
+.footer-container a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.footer-container a:hover {
+    color: #ddd;
+}
+
+.pdf-link {
+    color: deepskyblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.pdf-link:hover {
+    color: lightblue;
+}
+

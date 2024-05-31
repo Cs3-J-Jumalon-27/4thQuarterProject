@@ -1,0 +1,127 @@
+form {
+    max-width: 500px; 
+    padding: 20px; 
+    background-color: #48aaad;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-left: 30px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+textarea,
+select {
+    width: calc(100% - 20px); 
+    padding: 8px; 
+    margin-bottom: 8px; 
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+input[type="submit"] {
+    background-color: #63c5da;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #52b2bf;
+}
+
+h1, p {
+    text-align: center;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background:linear-gradient(to left, black, #0a1f32);
+}
+
+header {
+    background:  linear-gradient(to top left,black 30%, #0a1f32);
+    color: #fff;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000; 
+}
+.container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 0 20px; 
+}
+
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+nav {
+    margin-left: auto; 
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color: #ddd;
+}
+.about {
+    display: flex;
+    padding: 50px;
+    background: linear-gradient(to top left, black 30%, #0a1f32);
+    color: white;
+    min-height: calc(135vh - 150px); 
+}
+footer {
+    background: #0a1f32;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-container p {
+    margin: 5px 0;
+}
+
+.footer-container a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.footer-container a:hover {
+    color: #ddd;
+}
+
+.pdf-link {
+    color: deepskyblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.pdf-link:hover {
+    color: lightblue;
+}
